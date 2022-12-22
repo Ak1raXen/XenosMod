@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "xenos:block/memory_block" }
+  }
+}

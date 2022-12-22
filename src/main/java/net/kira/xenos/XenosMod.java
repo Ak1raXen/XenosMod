@@ -1,6 +1,7 @@
 package net.kira.xenos;
 
 import net.fabricmc.api.ModInitializer;
+import net.kira.xenos.block.ModBlocks;
 import net.kira.xenos.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -14,6 +15,7 @@ public class XenosMod implements ModInitializer {
 	public void onInitialize() {
 
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
 	}
 }
